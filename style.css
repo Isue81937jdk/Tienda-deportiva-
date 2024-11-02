@@ -1,0 +1,253 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center; /* Alineación de texto por defecto */
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Estilo del carrito de compras */
+.cart {
+    margin-top: 10px;
+}
+
+.cart button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cart button:hover {
+    background-color: #e6b800;
+}
+
+/* Estilos de las secciones */
+.section {
+    padding: 20px;
+    text-align: center;
+    
+}
+.img{
+    border:solid;
+    border-color:green;
+}
+    .
+        
+    
+/* Contenedor para el contenido de las secciones */
+.container {
+    max-width: 960px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px;
+}
+
+/* Estilo de los productos */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+    text-align: center; /* Alineación de texto por defecto */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 16px;
+}
+
+/* Estilo del botón "Añadir al carrito" */
+.add-to-cart {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+/* Estilo del formulario */
+.formulario {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 280px;
+    text-align: center; /* Alineación de texto por defecto */
+}
+
+.formulario h3 {
+    margin-bottom: 15px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 1px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    
+}
+
+.formulario button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.formulario button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos del menú */
+.menu-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px; 
+    top: 10px; 
+}
+
+.navbar {
+    display: none; 
+    background-color: #444;
+    position: absolute;
+    top: 50px; 
+    right: 0; 
+    width: 200px; 
+    border-radius: 5px;
+    z-index: 1000; 
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    padding: 10px; 
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block; 
+}
+
+.navbar ul li a:hover {
+    background-color: #555; 
+}
+
+/* Estilos del modal del carrito */
+.cart-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.cart-modal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cart-modal ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-modal li {
+    margin-bottom: 10px;
+}
+
+.cart-modal button {
+    background: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilos del botón del carrito */
+.cart button {
+    background: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para los títulos de las secciones */
+.section-title {
+    font-size: 32px; /* Tamaño del título */
+    font-weight: bold; /* Fuente en negrita */
+    color: #007bff; /* Color del título */
+    margin-bottom: 20px; /* Margen inferior */
+    text-align: center; /* Alineación del título */
+}

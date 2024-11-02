@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Deportiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda Deportiva</h1>
+        <button id="menu-toggle" class="menu-toggle">&#9776;</button> 
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a href="#casa">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="sobre nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div id="cart" class="cart">
+            <button>Carrito (<span id="cart-count">0</span>)</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section-b">
+            <h2>Bienvenidos a nuestra tienda</h2>
+            <img src="/storage/emulated/0/Download/MHT5.gif" class="img" width=350px border="10px">
+            <p>Descubre una amplia selección de artículos deportivos de alta calidad.</p>
+            <!-- Agrega contenido para la sección de inicio -->
+        </section>
+
+        <section id="products" class="section">
+            <h2>Nuestros Productos</h2>
+            <div class="product-container">
+                <div class="product" data-name="Zapatillas" data-price="50">
+                    <h2>Zapatillas</h2>
+                    <p>Detalles</p>
+                    <p>Salí a correr por tu vecindario o inyectale el estilo del running a tu look diario con estas zapatillas ADIDAS.El exterior de malla liviana transpirable mantiene tus pies frescos incluso en climas cálidos, mientras que la mediasuela acolchada proporciona comodidad durante todo el día.</p>
+                    <p>Precio: $50</p>
+                    <img src="/storage/emulated/0/Download/7aCd.gif" alt="Zapatillas">
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+
+                <div class="product" data-name="Pelota de Fútbol" data-price="25">
+                    <h2>Pelota de voley</h2>
+                    <p>Detalle</p>
+                    <p>vóleibol! El Balón de Voleibol Mikasa V355W es la elección perfecta para aquellos que buscan calidad y durabilidad en cada jugada. Fabricado con cuero sintético, este balón destaca por su Peso ligero de 270 g y cámara de butilo que garantiza un excelente rebote en superficies indoor. Además, su costura cosida a máquina asegura una mayor resistencia ante el juego intenso.</p>
+                    <p>Precio: $25</p>
+                    <img src="/storage/emulated/0/Download/6ec23954de410089feefed9941151746.gif" alt="Pelota de Voleibol">
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+
+                <div class="product" data-name="pelota de furbol" data-price="70">
+                    <h2>pelota de futbol</h2>
+                    <p>Detalle</p>
+                    <p>Escribí tu propia historia de fútbol con la pelota oficial de la copa mundial de la FIFA™
+                     la pelota es solo el comienzo.
+                     El resto de tu historia futbolística aún no está escrito.
+                     La pelota oficial de la Copa Mundial de la FIFA 2006™, esta pelota ADIDAS Al Rihla Pro sin costuras lleva la precisión a nuevas alturas.</p>
+                    <p>Precio: $70</p>
+                    <img src="/storage/emulated/0/Download/giphy.gif" alt="Raqueta de Tenis">
+                    <button class="add-to-cart">Añadir al carrito</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una tienda dedicada a ofrecer productos deportivos de alta calidad.</p>
+            <!-- Agrega contenido para la sección "Sobre Nosotros" -->
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contacto</h2>
+            <div class="formulario" data-name="llena el siguiente formulario para avanzar" data-price="70">
+                <h3>Llene el siguiente formulario para avanzar</h3>
+                <form
+  action="https://formspree.io/f/xjkvvqjg"
+  method="POST"
+>
+  <label>
+    tu email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    tu mensaje:
+    <textarea name="mensaje"></textarea>
+  </label>
+  <button type="submit">enviar</button>
+</form>
+            </div>
+        </section>
+    </main>
+    <p> 2024 derechos son de adidas y de la pagina</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
